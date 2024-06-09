@@ -1,0 +1,41 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "todos",
+  "scripts": {
+    "start": "vite --open",
+    "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vladimir-Dunaev/Todos.git"
+  },
+  "keywords": [
+    "todos"
+  ],
+  "author": "Dunaev Vladimir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladimir-Dunaev/Todos/issues"
+  },
+  "homepage": "https://vladimir-dunaev.github.io/Todos",
+  "type": "module",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "classnames": "^2.5.1",
+    "gh-pages": "^6.1.1",
+    "sass": "^1.77.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.13"
+  }
+}

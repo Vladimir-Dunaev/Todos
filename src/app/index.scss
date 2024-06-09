@@ -1,0 +1,11 @@
+@import '@/app/styles/normalize.scss';
+@import '@/app/styles/vars.scss';
+
+body {
+  background-color: $bg;
+  color: $mainGray;
+}
+
+button {
+  cursor: pointer;
+}

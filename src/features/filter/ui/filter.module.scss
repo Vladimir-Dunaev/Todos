@@ -1,0 +1,14 @@
+.filter {
+  display: flex;
+  column-gap: 10px;
+}
+
+.button {
+  padding: 5px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+
+  &.active {
+    border: 2px solid $mainGray;
+  }
+}

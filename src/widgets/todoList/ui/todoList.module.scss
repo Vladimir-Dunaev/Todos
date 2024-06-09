@@ -1,0 +1,35 @@
+.list {
+  background-color: #fff;
+  box-shadow: 0 1px 3px 3px #e1e1e1;
+
+  &-item {
+    border-bottom: 1px solid $mainGray;
+  }
+}
+
+.add {
+  padding: 15px;
+  border-bottom: 1px solid $mainGray;
+  display: flex;
+  column-gap: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+
+  &::placeholder {
+    color: $mainGray;
+  }
+}
+
+.toolBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.add-task {
+  font-size: 30px;
+}

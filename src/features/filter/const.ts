@@ -1,0 +1,1 @@
+export const FILTER: string[] = ['All', 'Active', 'Complited'];
